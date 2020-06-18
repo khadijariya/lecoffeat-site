@@ -118,3 +118,110 @@ ul,li{
 }
 
 /* header part design end */
+/* about part design start */
+.about-part {
+    padding: 100px 0;
+}
+
+.about-icon i {
+    color: #30788b;
+    border: 2px solid #000000;
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    padding: 35px;
+    font-size: 35px;
+}
+
+.about-content {
+    position: relative;
+}
+
+.about-content::after {
+    position: absolute;
+    content: '';
+    background: #f57365;
+    width: 94px;
+    height: 1px;
+    top: 33%;
+    left: 36%;
+}
+
+.about-content h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000000;
+    padding-top: 18px;
+}
+
+.about-content p {
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #6b6b6b;
+    line-height: 26px;
+    padding-top: 15px;
+}
+
+/* about part design end */
+/* introduce apps part design start */
+.introduce-app-part {
+    padding-top: 60px;
+    position: relative;
+}
+
+.introduce-app-part::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(247, 247, 247, 0.6);
+}
+
+.introduce-content {
+    position: relative;
+    z-index: 100;
+    padding-left: 40px;
+}
+
+.introduce-content::after {
+    position: absolute;
+    content: '';
+    background: #f57365;
+    width: 16%;
+    height: 1px;
+    top: 17%;
+    left: 40px;
+}
+
+.introduce-content h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-bottom: 8px;
+    padding-top: 55px;
+}
+
+.introduce-content p {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 26px;
+    padding-top: 10px;
+    width: 80%;
+}
+
+.app-location {
+    padding-top: 10px;
+}
+
+.intro-app-image {
+    position: relative;
+    z-index: 90;
+}
+
+/* introduce apps part design end */
