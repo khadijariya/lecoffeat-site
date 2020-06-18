@@ -1,21 +1,359 @@
 /*// Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
-  
+    #header-area {
+        height: 43vh;
+    }
+
+    .custom-logo img {
+        width: 35%;
+    }
+
+    /* .log-sign {
+        display: none;
+    } */
+
+    .header-content {
+        padding: 0px 0;
+
+    }
+
+    .header-content h2 {
+        font-size: 35px;
+    }
+
+    .header-content h4 {
+        font-size: 20px;
+    }
+
+    .about-part {
+        padding: 15px 0;
+    }
+
+    .about-content::after {
+        top: 41%;
+        left: 40%;
+    }
+
+    .introduce-app-part {
+        padding-top: 0;
+        text-align: center;
+    }
+
+    .introduce-content {
+        padding-left: 0;
+    }
+
+    .introduce-content h4 {
+        padding-bottom: 20px;
+        font-size: 18px;
+    }
+
+    .introduce-content::after {
+        top: 14%;
+        left: 41%;
+    }
+
+    .introduce-content p {
+        text-align: justify;
+        padding-left: 30px;
+        padding-top: 0px;
+    }
+
+    .app-location {
+        padding: 25px 0;
+    }
+
+    .intro-app-image img {
+        width: 70%;
+    }
+
+    .testimonial-slider {
+        padding: 20px 0 50px 15px;
+    }
+
+    .slider-content .comments {
+        font-size: 16px;
+        padding: 0px 3%;
+    }
+
+    .coffeat-branch {
+        padding: 25px 0 50px 0;
+    }
+
+    .coffeat-branch .coffeat-branch-title {
+        padding-bottom: 15px;
+    }
+
+    .map-image {
+        text-align: center;
+    }
+
+    .branch-content-wrap h2 {
+        font-size: 14px;
+    }
+
+    .branch-content-left span {
+        padding: 1px 8px;
+    }
+
+    .branch-content-left h3 {
+        font-size: 16px;
+    }
+
+    .branch-content-left ul li a {
+        font-size: 12px;
+    }
+
+    .branch-content-left ul {
+        padding-left: 35px;
+    }
+
+    .branch-content-left i {
+        padding-left: 30px;
+    }
+
+    .branch-detail-wrap {
+        padding: 25px 0px 25px 0px;
+    }
+
+    .branch-content-wrap {
+        padding: 22px 20px 0 22px;
+        height: 320px;
+    }
+
+    .footer-part {
+        padding: 0px 30px 15px 0px;
+        text-align: center;
+    }
 }
 
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
-   
+    #header-area {
+        height: 65vh;
+    }
+
+    .custom-logo img {
+        width: 70%;
+    }
+
+    .header-content h2 {
+        font-size: 75px;
+    }
+
+    .about-part {
+        padding: 15px 0;
+    }
+
+    .about-content::after {
+        top: 43%;
+        left: 41%;
+    }
+
+    .introduce-app-part {
+        padding-top: 0;
+        text-align: center;
+    }
+
+    .introduce-content {
+        padding-left: 0;
+    }
+
+    .introduce-content h4 {
+        padding-bottom: 20px;
+    }
+
+    .introduce-content::after {
+        top: 14%;
+        left: 41%;
+    }
+
+    .introduce-content p {
+        text-align: justify;
+        padding-left: 125px;
+        padding-top: 0px;
+    }
+
+    .app-location {
+        padding: 25px 0;
+    }
+
+    .intro-app-image img {
+        width: 70%;
+    }
+
+    .testimonial-slider {
+        padding: 20px 0 50px 15px;
+    }
+
+    .slider-content .comments {
+        font-size: 16px;
+        padding: 0px 3%;
+    }
+
+    .coffeat-branch {
+        padding: 25px 0 50px 0;
+    }
+
+    .coffeat-branch .coffeat-branch-title {
+        padding-bottom: 15px;
+    }
+
+    .map-image {
+        text-align: center;
+    }
+
+    .branch-content-wrap h2 {
+        font-size: 20px;
+    }
+
+    .branch-content-left span {
+        padding: 2px 11px;
+    }
+
+    .branch-content-left h3 {
+        font-size: 22px;
+    }
+
+    .branch-content-left ul li a {
+        font-size: 13px;
+    }
+
+    .branch-content-left ul {
+        padding-left: 42px;
+    }
+
+    .branch-detail-wrap {
+        padding: 25px 0px 25px 0px;
+    }
+
+    .branch-content-wrap {
+        padding: 22px 20px 0 22px;
+        height: 310px;
+    }
 }
 
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
-    
+    #header-area {
+        height: 75vh;
+    }
+
+    .custom-logo img {
+        width: 80%;
+    }
+
+    .header-content h2 {
+        font-size: 85px;
+    }
+
+    .about-part {
+        padding: 35px 0;
+    }
+
+    .about-content::after {
+        top: 24%;
+        left: 28%;
+    }
+
+    .introduce-app-part {
+        padding-top: 0;
+        text-align: center;
+    }
+
+    .introduce-content {
+        padding-left: 0;
+    }
+
+    .introduce-content h4 {
+        padding-bottom: 20px;
+    }
+
+    .introduce-content::after {
+        top: 16%;
+        left: 41%;
+    }
+
+    .introduce-content p {
+        text-align: justify;
+        padding-left: 125px;
+        padding-top: 0px;
+    }
+
+    .app-location {
+        padding: 25px 0;
+    }
+
+    .intro-app-image img {
+        width: 70%;
+    }
+
+    .testimonial-slider {
+        padding: 20px 0 50px 15px;
+    }
+
+    .coffeat-branch {
+        padding: 35px 0 100px 0;
+    }
+
+    .coffeat-branch .coffeat-branch-title {
+        padding-bottom: 45px;
+    }
+
+    .branch-content-wrap h2 {
+        font-size: 20px;
+    }
+
+    .branch-content-left span {
+        padding: 2px 8px;
+    }
+
+    .branch-content-left h3 {
+        font-size: 22px;
+    }
+
+    .branch-content-left ul li a {
+        font-size: 10px;
+    }
+
+    .branch-content-left ul {
+        padding-left: 35px;
+    }
+
+    .branch-detail-wrap {
+        padding: 25px 0px 25px 0px;
+    }
+
+    .branch-content-wrap {
+        padding: 5px 18px 0 15px;
+    }
 }
 
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    #header-area {
+        height: 85vh;
+    }
 
+    .introduce-content p {
+        width: 100%;
+    }
+
+    .testimonial-slider {
+        padding: 30px 0 50px 5px;
+    }
+
+    .coffeat-branch {
+        padding: 35px 0 100px 0;
+    }
+
+    .coffeat-branch .coffeat-branch-title {
+        padding-bottom: 45px;
+    }
+
+    .branch-content-left ul li a {
+        font-size: 14px;
+    }
 }
 
 /*// Extra large devices (large desktops, 1200px and up)*/
