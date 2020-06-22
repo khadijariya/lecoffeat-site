@@ -1,18 +1,22 @@
 body {
     margin: 0;
     padding: 0;
-   
+
 }
 
 html {
     scroll-behavior: smooth;
 }
-a{
+
+a {
     text-decoration: none;
 }
-ul,li{
+
+ul,
+li {
     list-style: none;
 }
+
 /* basic css end here */
 /* header part design start */
 #header-area {
@@ -168,60 +172,44 @@ ul,li{
 /* introduce apps part design start */
 .introduce-app-part {
     padding-top: 60px;
-    position: relative;
-}
-
-.introduce-app-part::after {
-    position: absolute;
-    content: '';
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: rgba(247, 247, 247, 0.6);
+    background: #f7f7f7;
 }
 
 .introduce-content {
-    position: relative;
-    z-index: 100;
     padding-left: 40px;
 }
 
-.introduce-content::after {
+.introduce-content h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+    padding-top: 40px;
+    position: relative;
+}
+
+.introduce-content h4::after {
     position: absolute;
     content: '';
     background: #f57365;
     width: 16%;
     height: 1px;
-    top: 17%;
-    left: 40px;
-}
-
-.introduce-content h4 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 19px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    padding-bottom: 8px;
-    padding-top: 55px;
+    top: 105%;
+    left: 0%;
 }
 
 .introduce-content p {
     font-family: 'Lato', sans-serif;
     font-size: 15px;
     font-weight: normal;
-    line-height: 26px;
-    padding-top: 10px;
+    line-height: 152%;
+    padding-top: 7px;
     width: 80%;
 }
 
 .app-location {
     padding-top: 10px;
-}
-
-.intro-app-image {
-    position: relative;
-    z-index: 90;
 }
 
 /* introduce apps part design end */
@@ -288,10 +276,21 @@ ul,li{
 
 .branch-detail-wrap {
     background: #f7f7f7;
-    padding: 30px 10px 40px 15px;
+    padding: 25px 10px 30px 10px;
     box-shadow: 0px 4px 2px #ddd;
 }
 
+/* its for map css */
+#mymap-canvas img.text-marker {
+    max-width: none !important;
+    background: none !important;
+}
+
+img {
+    max-width: none
+}
+
+/* its for coffeat branches content css */
 .branch-content-wrap {
     padding: 10px 22px 10px 20px;
     height: 290px;
@@ -299,56 +298,53 @@ ul,li{
     overflow-y: scroll;
 }
 
+.number h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    background: #2497b6;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.coffee-num p {
+    color: #acb4bf;
+}
+
+.coffee-num h2 {
+    font-size: 24px;
+    color: #2497b6;
+    font-weight: bold;
+}
+
+.coffee-num i {
+    font-size: 22px;
+}
+
+.distance h2 {
+    font-size: 22px;
+    color: #2497b6;
+    font-weight: bold;
+}
+
+.pb {
+    padding-bottom: 32px;
+}
+
 .branch-content-left {
     position: relative;
-    padding-bottom: 32px;
 }
 
 .branch-content-left::before {
     position: absolute;
     content: '';
-    width: 129%;
+    width: 90%;
     height: 1px;
     top: 74%;
-    left: 4px;
+    left: 3%;
     background: #acb4bf;
-}
-
-.branch-content-left span {
-    background: #2497b6;
-    color: #ffffff;
-    padding: 3px 12px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: 700;
-    font-size: 24px;
-    margin-right: 10px;
-}
-
-.branch-content-left h3 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 24px;
-    color: #2497b6;
-}
-
-.branch-content-left ul li a {
-    color: #acb4bf;
-    text-decoration: none;
-    font-size: 16px;
-}
-
-.branch-content-left ul {
-    padding-left: 50px;
-}
-
-.branch-content-left i {
-    font-size: 22px;
-}
-
-.branch-content-wrap h2 {
-    font-size: 24px;
-    color: #2497b6;
-    font-weight: bold;
 }
 
 /* coffeat-branches part design end here */
@@ -365,8 +361,5 @@ ul,li{
 }
 
 /* footer part design end here */
-
-
-
 /* font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif; */

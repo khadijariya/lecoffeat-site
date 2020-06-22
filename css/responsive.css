@@ -2,18 +2,28 @@
 @media (max-width: 575.98px) {
     #header-area {
         height: 43vh;
+        padding: 20px 0;
     }
 
     .custom-logo img {
-        width: 35%;
+        width: 30%;
     }
 
-    /* .log-sign {
-        display: none;
-    } */
+    .log-sign {
+        margin-top: -40px;
+    }
+
+    .log-sign ul li a {
+        font-size: 11px;
+        padding-left: 5px;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        margin-top: -50px;
+    }
 
     .header-content {
-        padding: 0px 0;
+        padding: 25px 0;
 
     }
 
@@ -35,36 +45,38 @@
     }
 
     .introduce-app-part {
-        padding-top: 0;
+        padding-top: 20px;
         text-align: center;
     }
 
     .introduce-content {
-        padding-left: 0;
-    }
-
-    .introduce-content h4 {
-        padding-bottom: 20px;
-        font-size: 18px;
-    }
-
-    .introduce-content::after {
-        top: 14%;
-        left: 41%;
+        padding: 0 0 20px 0;
     }
 
     .introduce-content p {
+        font-size: 13px;
+        padding-top: 0;
+        width: 100%;
         text-align: justify;
-        padding-left: 30px;
-        padding-top: 0px;
+    }
+
+    .introduce-content h4 {
+        font-size: 15px;
+        padding-top: 20px;
+    }
+
+    .introduce-content h4::after {
+        width: 20%;
+        top: 102%;
+        left: 18%;
     }
 
     .app-location {
-        padding: 25px 0;
+        padding-top: 0;
     }
 
     .intro-app-image img {
-        width: 70%;
+        width: 80%;
     }
 
     .testimonial-slider {
@@ -88,37 +100,41 @@
         text-align: center;
     }
 
-    .branch-content-wrap h2 {
-        font-size: 14px;
-    }
-
-    .branch-content-left span {
-        padding: 1px 8px;
-    }
-
-    .branch-content-left h3 {
-        font-size: 16px;
-    }
-
-    .branch-content-left ul li a {
-        font-size: 12px;
-    }
-
-    .branch-content-left ul {
-        padding-left: 35px;
-    }
-
-    .branch-content-left i {
-        padding-left: 30px;
-    }
-
     .branch-detail-wrap {
         padding: 25px 0px 25px 0px;
     }
 
     .branch-content-wrap {
         padding: 22px 20px 0 22px;
-        height: 320px;
+        height: 310px;
+        text-align: center;
+    }
+
+    .pb {
+        padding-bottom: 15%;
+    }
+
+    .number h3 {
+        font-size: 20px;
+        width: 25px;
+        height: 25px;
+        margin-left: 48%;
+    }
+
+    .coffee-num h2 {
+        font-size: 21px;
+    }
+
+    .distance h2 {
+        font-size: 15px;
+    }
+
+    .coffee-num i {
+        font-size: 16px;
+    }
+
+    .coffee-num p {
+        font-size: 12px;
     }
 
     .footer-part {
@@ -151,35 +167,33 @@
     }
 
     .introduce-app-part {
-        padding-top: 0;
+        padding-top: 20px;
         text-align: center;
     }
 
     .introduce-content {
-        padding-left: 0;
-    }
-
-    .introduce-content h4 {
-        padding-bottom: 20px;
-    }
-
-    .introduce-content::after {
-        top: 14%;
-        left: 41%;
+        padding: 0 0 20px 0;
     }
 
     .introduce-content p {
+        font-size: 13px;
+        padding-top: 0;
+        width: 100%;
         text-align: justify;
-        padding-left: 125px;
-        padding-top: 0px;
+    }
+
+    .introduce-content h4 {
+        padding-top: 20px;
+    }
+
+    .introduce-content h4::after {
+        width: 20%;
+        top: 102%;
+        left: 18%;
     }
 
     .app-location {
-        padding: 25px 0;
-    }
-
-    .intro-app-image img {
-        width: 70%;
+        padding-top: 0;
     }
 
     .testimonial-slider {
@@ -203,33 +217,17 @@
         text-align: center;
     }
 
-    .branch-content-wrap h2 {
-        font-size: 20px;
-    }
-
-    .branch-content-left span {
-        padding: 2px 11px;
-    }
-
-    .branch-content-left h3 {
-        font-size: 22px;
-    }
-
-    .branch-content-left ul li a {
-        font-size: 13px;
-    }
-
-    .branch-content-left ul {
-        padding-left: 42px;
-    }
-
     .branch-detail-wrap {
         padding: 25px 0px 25px 0px;
     }
 
     .branch-content-wrap {
-        padding: 22px 20px 0 22px;
-        height: 310px;
+        padding: 10px 22px 10px 20px;
+        height: 305px;
+    }
+
+    .coffee-num p {
+        font-size: 14px;
     }
 }
 
@@ -257,75 +255,60 @@
     }
 
     .introduce-app-part {
-        padding-top: 0;
-        text-align: center;
+        padding-top: 20px;
     }
 
     .introduce-content {
         padding-left: 0;
     }
 
-    .introduce-content h4 {
-        padding-bottom: 20px;
-    }
-
-    .introduce-content::after {
-        top: 16%;
-        left: 41%;
-    }
-
     .introduce-content p {
-        text-align: justify;
-        padding-left: 125px;
-        padding-top: 0px;
+        font-size: 13px;
+        padding-top: 0;
+        width: 108%;
+    }
+
+    .introduce-content h4 {
+        font-size: 17px;
+        padding-top: 20px;
     }
 
     .app-location {
-        padding: 25px 0;
-    }
-
-    .intro-app-image img {
-        width: 70%;
+        padding-top: 0;
     }
 
     .testimonial-slider {
         padding: 20px 0 50px 15px;
     }
 
-    .coffeat-branch {
-        padding: 35px 0 100px 0;
+    .number h3 {
+        font-size: 22px;
+        width: 27px;
+        height: 27px;
     }
 
-    .coffeat-branch .coffeat-branch-title {
-        padding-bottom: 45px;
-    }
-
-    .branch-content-wrap h2 {
+    .coffee-num h2 {
         font-size: 20px;
     }
 
-    .branch-content-left span {
-        padding: 2px 8px;
+    .coffee-num i {
+        font-size: 18px;
     }
 
-    .branch-content-left h3 {
-        font-size: 22px;
-    }
-
-    .branch-content-left ul li a {
+    .coffee-num p {
         font-size: 10px;
     }
 
-    .branch-content-left ul {
-        padding-left: 35px;
+    .distance h2 {
+        font-size: 17px;
     }
 
-    .branch-detail-wrap {
-        padding: 25px 0px 25px 0px;
+    .coffeat-branch {
+        padding: 25px 0 45px 0;
     }
 
-    .branch-content-wrap {
-        padding: 5px 18px 0 15px;
+    .coffeat-branch .coffeat-branch-title {
+        padding-bottom: 30px;
     }
 }
 
@@ -343,6 +326,14 @@
         padding: 30px 0 50px 5px;
     }
 
+    .coffee-num h2 {
+        font-size: 21px;
+    }
+
+    .distance h2 {
+        font-size: 17px;
+    }
+
     .coffeat-branch {
         padding: 35px 0 100px 0;
     }
@@ -351,9 +342,7 @@
         padding-bottom: 45px;
     }
 
-    .branch-content-left ul li a {
-        font-size: 14px;
-    }
+
 }
 
 /*// Extra large devices (large desktops, 1200px and up)*/
